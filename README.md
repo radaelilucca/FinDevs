@@ -44,6 +44,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 Desenvolvido durante a Semana Omnistack 10.0 da Rocketseat!
 
+<p> Acesse a versão web em: <a href="https://bit.ly/36o1TwB"> FinDevs Web</a>! </p>
+<p>Baixe a versão mobile na Google Play Store!</p>
+
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
   <p  align="center">
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/PromoToReadme.png?raw=true" width=70% />
