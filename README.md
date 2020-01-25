@@ -46,7 +46,7 @@ Desenvolvido durante a Semana Omnistack 10.0 da Rocketseat!
 
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
   <p  align="center">
-<img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/PromoToReadme.png?raw=true" width=60% />
+<img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/PromoToReadme.png?raw=true" width=70% />
   </p>
  </h3>
 
