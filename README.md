@@ -42,7 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
-Desenvolvido durante a Semana Omnistack 10.0 da Rocketseat!
+Desenvolvido durante a Semana Omnistack 10.0 da <a href="https://rocketseat.com.br/">Rocketseat</a>!
 
 <p> Acesse a versão web em: <a href="https://bit.ly/36o1TwB"> FinDevs Web</a>! </p>
 <p>Baixe a versão mobile na Google Play Store!</p>
