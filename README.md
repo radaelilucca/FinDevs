@@ -25,9 +25,11 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+<p>
+    
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme.png?raw=true" width=990px />
-
-
+  </p>
+  
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -42,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 Desenvolvido durante a Semana Omnistack 10.0 da Rocketseat!
 
-<h3> Imagens do Projeto Mobile
+<h3> 📱 Imagens do Projeto Mobile 
   <p  align="center">
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/PromoToReadme.png?raw=true" width=60% />
   </p>
