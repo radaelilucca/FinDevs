@@ -1,0 +1,75 @@
+li.dev-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFF;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0,02);
+  border-radius: 3px;
+  padding: 20px
+}
+
+li.dev-item header {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+li.dev-item header img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+li.dev-item header .user-info{
+  margin-left: 10px;
+}
+
+.user-info strong {
+  display: block;
+  font-size: 17px;
+  color: #333;
+  }
+
+  .user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+  }
+
+  li.dev-item p{  
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0
+  }
+
+
+  
+  .dev-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .dev-buttons button {
+    border: 0;
+    background: #553AA2;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background 0.1s;
+  
+    display: flex;
+  }
+
+  .dev-buttons :hover {
+    background-color: #8e4dff;
+    border-radius: 5px;
+  }
+
+  
+
+
