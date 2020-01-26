@@ -10,6 +10,7 @@ const server = http.Server(app)
 
 setupWebSocket(server)
 
+// db connection
 mongoose.connect(process.env.MONGO_URL,
 {
   useNewUrlParser: true,
