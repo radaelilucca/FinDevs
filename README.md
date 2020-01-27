@@ -18,18 +18,22 @@
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+</br>
 <p align="center">
   :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  👨‍🏫 <a href="#-executando">Como Executar o Pojeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  👨‍🏫 <a href="#-executando">Como Executar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
   :memo:<a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   :phone: <a href="#phone-contato">Contato</a>
 </p>
 
+ </br>
  
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme.png?raw=true" width=990px />
 
-  
+
+
+
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
