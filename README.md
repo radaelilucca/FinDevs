@@ -35,6 +35,8 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
+- [Socket.io](https://socket.io/)
+- [MongoDB](https://www.mongodb.com/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
@@ -50,6 +52,12 @@ Desenvolvido durante a Semana Omnistack 10.0 da <a href="https://rocketseat.com.
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
   <p  align="center">
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/PromoToReadme.png?raw=true" width=70% />
+  </p>
+ </h3>
+ 
+ <h3> 🖱️ Imagem do Projeto Web </br> </br>
+  <p  align="center">
+<img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/Web.png?raw=true" width=90% />
   </p>
  </h3>
 
