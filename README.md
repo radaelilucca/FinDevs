@@ -98,7 +98,18 @@ Para buildar o aplicativo em APK ou IPA, é necessário preencher devidamente o 
 Neste passo, é de suma importância usar uma Google Api Key correta, caso contrário o mapa não funcionará em dispositivos Android.
 
 <h4> 🚩Lembre-se de renomear o arquivo .env.example para .env, e preencher as variáveis de ambiente. </h4>
+</br>
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+<h2>
+ ☎️ Gostou do projeto? Me chama pra gente trocar uma idéia!
+  </h3>
+  
+  <p>
+    <a href="https://www.linkedin.com/in/luccaradaeli/">
+      <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/Linkedin.png?raw=true" width=15%/> 
+      </a>
+  </p>
