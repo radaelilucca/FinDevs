@@ -3,7 +3,7 @@
  </h1>
 
 <h4 align="center">
-  🚀 Desenvolvido na Semana OmniStack 10.0 (Rocketseat!)
+  🐱‍💻 Desenvolvido na Semana OmniStack 10.0 (Rocketseat!) 🐱‍💻
 </h4>
 
 <p align="center">
@@ -19,11 +19,11 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">:rocket: Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  <a href="#-executando">👨‍🏫 Como Executar o Pojeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  <a href="#memo-licença">:memo: Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#phone-contato">:phone: Contato</a>
+  :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  👨‍🏫 <a href="#-executando">Como Executar o Pojeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  :memo:<a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :phone: <a href="#phone-contato">Contato</a>
 </p>
 
  
