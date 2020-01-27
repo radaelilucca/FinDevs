@@ -19,16 +19,16 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  <a href="#-executando">Como Executar o Pojeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-tecnologias">:rocket: Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  <a href="#-executando">👨‍🏫 Como Executar o Pojeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  <a href="#memo-licença">:memo: Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#phone-contato">:phone: Contato</a>
 </p>
 
-<p>
-    
+ 
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme.png?raw=true" width=990px />
-  </p>
+
   
 ## :rocket: Tecnologias
 
@@ -104,9 +104,12 @@ Neste passo, é de suma importância usar uma Google Api Key correta, caso contr
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-<h2>
- ☎️ Gostou do projeto? Me chama pra gente trocar uma idéia!
-  </h3>
+
+ ## :phone: Contato 
+
+ 
+ <h4>Gostou do Projeto e quer conversar sobre? Me chama pra gente trocar uma idéia! </h4>
+  
   
   <p>
     <a href="https://www.linkedin.com/in/luccaradaeli/">
