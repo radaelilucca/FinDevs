@@ -4,6 +4,7 @@ import PointSchema from './utils/PointSchema'
 const DevSchema = new mongoose.Schema({
   name: String,
   github_user: String,
+  password: String,
   bio: String,
   avatar_url: String,
   techs: [String],
