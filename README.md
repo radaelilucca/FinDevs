@@ -47,7 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
+O FinDevs é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 Desenvolvido durante a Semana Omnistack 10.0 da <a href="https://rocketseat.com.br/">Rocketseat</a>!
 
 <p> Acesse a versão web em: <a href="https://bit.ly/36o1TwB"> FinDevs Web</a>! </p>
