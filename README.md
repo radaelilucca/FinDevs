@@ -19,13 +19,14 @@
 </p>
 
 </br>
-<p align="center">
+<h5 align="center">
   :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  👨‍🏫 <a href="#-executando">Como Executar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  👨‍🏫 <a href="#-executando">Como Executar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  ➕ <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   :memo:<a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   :phone: <a href="#phone-contato">Contato</a>
-</p>
+</h5>
 
  </br>
  
@@ -103,6 +104,12 @@ Neste passo, é de suma importância usar uma Google Api Key correta, caso contr
 
 <h4> 🚩Lembre-se de renomear o arquivo .env.example para .env, e preencher as variáveis de ambiente. </h4>
 </br>
+
+## ➕ Como contribuir
+- Faça um fork dos repositórios em produção (<a href="https://github.com/radaelilucca/findevs-backend">Back-end</a>, <a href="https://github.com/radaelilucca/findevs-frontend">Front-end</a> e <a href="https://github.com/radaelilucca/findevs-mobile">Mobile</a>);
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
 ## :memo: Licença
 
