@@ -47,10 +47,16 @@ class DevController {
   }
 
   async index(req, res){
+    const page = parseInt(req.query.page) || 1
+    
+    const limit = parseInt(req.query.limit) || 1
 
     const devs = await Dev.find({
-      active: true
+      active: true,
     })
+    .skip((page - 1) * limit)
+    .limit(limit)
+
     return res.json(devs)
   }
 
