@@ -103,7 +103,8 @@ Neste passo, é de suma importância usar uma Google Api Key correta, caso contr
 </br>
 
 ## ➕ Como contribuir
-- Faça um fork dos repositórios em produção (<a href="https://github.com/radaelilucca/findevs-backend">Back-end</a>, <a href="https://github.com/radaelilucca/findevs-frontend">Front-end</a> e <a href="https://github.com/radaelilucca/findevs-mobile">Mobile</a>);
+- Primeiramente deixe uma ⭐! 
+- Faça um fork dos repositórios em produção, pois estes estão atualizados: <a href="https://github.com/radaelilucca/findevs-backend">Back-end</a> | <a href="https://github.com/radaelilucca/findevs-frontend">Front-end</a> | <a href="https://github.com/radaelilucca/findevs-mobile">Mobile</a>;
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
