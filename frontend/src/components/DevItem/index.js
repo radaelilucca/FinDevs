@@ -44,7 +44,9 @@ export default function DevItem({ dev, deletar }) {
       <button
           title="Deletar"
           type="button"
-          onClick={handleRemoveUser}  
+          onClick={() => {
+            alert("Funcionalidade Desabilitada no Momento!")
+          }}  
           id="trash"      
         >
           <FaTrashAlt />
