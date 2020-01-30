@@ -32,9 +32,6 @@
  
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme.png?raw=true" width=990px />
 
-
-
-
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -52,7 +49,7 @@ O FinDevs é um projeto que visa conectar desenvolvedores próximos a você que 
 Desenvolvido durante a Semana Omnistack 10.0 da <a href="https://rocketseat.com.br/">Rocketseat</a>!
 
 <p> Acesse a versão web em: <a href="https://bit.ly/36o1TwB"> FinDevs Web</a>! </p>
-<p>Baixe a versão mobile na Google Play Store! // Ou aqui: <a href="https://lnkd.in/eSWXRuy">FinDevs Android</a></p>
+<p>Baixe a versão mobile na <a href="https://lnkd.in/eSWXRuy"> Google Play Store </a>!</p>
 
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
   <p  align="center">
