@@ -62,12 +62,21 @@ class DevController {
     return res.json(dev);
   }
 
-  async index(req, res) {
-    // TESTANDO UPPER NOS EXISTENTES
 
-    const devs = await Dev.find({ active: true });
+  async index(req, res){
+    const page = parseInt(req.query.page) || 1
+    
+    const limit = parseInt(req.query.limit) || 1
 
-    return res.json(devs);
+    const devs = await Dev.find({
+      active: true,
+    })
+    .skip((page - 1) * limit)
+    .limit(limit)
+
+    return res.json(devs)
+
+
   }
 
   async update(req, res) {
