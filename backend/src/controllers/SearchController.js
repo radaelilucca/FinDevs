@@ -1,29 +1,33 @@
-import Dev from '../models/Devs'
-import parseStingAsArray from '../utils/parseStingAsArray'
-class SearchController {
+import Dev from '../models/Devs';
+import parseStingAsArray from '../utils/parseStingAsArray';
 
-  async index(req, res){
-    const {latitude, longitude, techs} = req.query
-    const techsArray = parseStingAsArray(techs)
+class SearchController {
+  async index(req, res) {
+    const { latitude, longitude, techs } = req.query;
+     
+
+    const uppperTechs = techs.toUpperCase();
+    const techsArray = parseStingAsArray(uppperTechs);
+
 
     const devs = await Dev.find({
       active: true,
       techs: {
-        $in: techsArray
+        $in: techsArray,
       },
       location: {
-         $near: {
-           $geometry: {
-             type: 'Point',
-             coordinates: [longitude, latitude]
-           },
-           $maxDistance: 30000
-         }
-      }
-    })
+        $near: {
+          $geometry: {
+            type: 'Point',
+            coordinates: [longitude, latitude],
+          },
+          $maxDistance: 30000,
+        },
+      },
+    });
 
-    return res.json(devs)
+    return res.json(devs);
   }
 }
 
-export default new SearchController
+export default new SearchController();

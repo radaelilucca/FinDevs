@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 const PointSchema = new mongoose.Schema({
   type: {
@@ -7,9 +7,9 @@ const PointSchema = new mongoose.Schema({
     required: true,
   },
   coordinates: {
-    type:[Number],
+    type: [Number],
     required: true,
-  }
-})
+  },
+});
 
-export default PointSchema
+export default PointSchema;

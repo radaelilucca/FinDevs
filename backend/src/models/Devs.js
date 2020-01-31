@@ -1,21 +1,28 @@
-import mongoose from 'mongoose'
-import PointSchema from './utils/PointSchema'
+import mongoose from 'mongoose';
+import PointSchema from './utils/PointSchema';
 
 const DevSchema = new mongoose.Schema({
   name: String,
   github_user: String,
-  password: String,
+  password_hash: String,
+  admin: {
+    type: Boolean,
+    default: false,
+  },
   bio: String,
   avatar_url: String,
-  techs: [String],
+  techs: {
+    type: [String],
+    uppercase: true,
+  },
   location: {
     type: PointSchema,
-    index: '2dsphere'
+    index: '2dsphere',
   },
   active: {
     type: Boolean,
-    default: true
-  }
-})
+    default: true,
+  },
+});
 
-export default mongoose.model('Dev', DevSchema)
+export default mongoose.model('Dev', DevSchema);

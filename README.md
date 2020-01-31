@@ -32,9 +32,6 @@
  
 <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme.png?raw=true" width=990px />
 
-
-
-
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -52,7 +49,7 @@ O FinDevs é um projeto que visa conectar desenvolvedores próximos a você que 
 Desenvolvido durante a Semana Omnistack 10.0 da <a href="https://rocketseat.com.br/">Rocketseat</a>!
 
 <p> Acesse a versão web em: <a href="https://bit.ly/36o1TwB"> FinDevs Web</a>! </p>
-<p>Baixe a versão mobile na Google Play Store! // Ou aqui: <a href="https://lnkd.in/eSWXRuy">FinDevs Android</a></p>
+<p>Baixe a versão mobile na <a href="https://lnkd.in/eSWXRuy"> Google Play Store </a>!</p>
 
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
   <p  align="center">
@@ -106,7 +103,8 @@ Neste passo, é de suma importância usar uma Google Api Key correta, caso contr
 </br>
 
 ## ➕ Como contribuir
-- Faça um fork dos repositórios em produção (<a href="https://github.com/radaelilucca/findevs-backend">Back-end</a>, <a href="https://github.com/radaelilucca/findevs-frontend">Front-end</a> e <a href="https://github.com/radaelilucca/findevs-mobile">Mobile</a>);
+- Primeiramente deixe uma ⭐! 
+- Faça um fork dos repositórios em produção, pois estes estão atualizados: <a href="https://github.com/radaelilucca/findevs-backend">Back-end</a> | <a href="https://github.com/radaelilucca/findevs-frontend">Front-end</a> | <a href="https://github.com/radaelilucca/findevs-mobile">Mobile</a>;
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.

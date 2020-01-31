@@ -75,7 +75,7 @@ function DevForm({ onSubmit }) {
         </div>
         <div className="input-group">
           <div className="input-block">
-            <label htmlFor="techs">Laitude</label>
+            <label htmlFor="techs">Latitude</label>
             <input
               name="Latitude"
               type="number"
