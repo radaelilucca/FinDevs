@@ -30,7 +30,7 @@
 
  </br>
  
-<img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme.png?raw=true" width=990px />
+<img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/FindevsToReadme2.png?raw=true" width=990px />
 
 ## :rocket: Tecnologias
 
