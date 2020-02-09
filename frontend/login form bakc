@@ -1,0 +1,24 @@
+<Form onSubmit={handleSubmit}>
+          <img src={logo} alt="FinDevs" />
+          <Title>Sign in</Title>
+          <InputGroup>
+            <FaGithubAlt className="icon" />
+            <Input
+              placeholder="GitHub User"
+              name="gitUser"
+              value={gitUser}
+              onChange={(e) => setGitUser(e.target.value)}
+            />
+          </InputGroup>
+          <InputGroup>
+            <FaLock className="icon" />
+            <Input
+              type="password"
+              placeholder="Password"
+              name="pass"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </InputGroup>
+          <Button type="submit">SIGN IN</Button>
+        </Form>

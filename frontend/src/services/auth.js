@@ -1,10 +1,15 @@
-export const TOKEN_KEY = "@findevs-Token"
+/* eslint-disable import/no-cycle */
+import jwt from 'jsonwebtoken';
+import promisify from 'util';
+import api from './api';
+
+import authConfig from '../config/auth';
+
+export const TOKEN_KEY = 'findevs-token';
+
 export const isAuthenticaded = () => localStorage.getItem(TOKEN_KEY) !== null;
-export const getToken = () => localStorage.getItem(TOKEN_KEY);
-export const login = () => token => 
-{
-  localStorage.setItem(TOKEN_KEY, token)
-};
-export const logout = () => {
-  localStorage.removeItem(TOKEN_KEY)
-}
+
+const getToken = () => localStorage.getItem('findevs-token');
+
+
+export { getToken };

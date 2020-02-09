@@ -1,45 +1,38 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+/* eslint-disable react/jsx-filename-extension */
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-//import Logo from "../../assets/airbnb-logo.svg";
+// import Swal from 'sweetalert2';
 
-import { Form, Container } from "./styles";
+import {
+  FaGithubAlt, FaKey, FaCompass, FaCode,
+} from 'react-icons/fa';
+import {
+  Container, SignUpBox, SideBox, Button, Form,
+} from './styles';
 
-class SignUp extends Component {
-  state = {
-    github_user: "",
-    password: "",
-    
-  };
+import api from '../../services/api';
+import '../../global.css';
+import logo from '../../assets/Logo3.png';
+import SignUpForm from '../../components/SignUpForm';
 
-  handleSignUp = e => {
-    e.preventDefault();
-    alert("Eu vou te registrar");
-  };
+export default function SignUp({ history }) {
+  return (
+    <Container>
+      <SideBox>
+        <h1>Hello, Dev!</h1>
+        <h2>Create an Account and find some Devs arround you!</h2>
+        <div className="login-option">
+          <p>Already have an Account?</p>
+          <Link to="/">
+            <Button>SIGN IN</Button>
+          </Link>
+        </div>
+      </SideBox>
 
-  render() {
-    return (
-      <Container>
-        <Form onSubmit={this.handleSignUp}>
-          
-          
-          <input
-            type="text"
-            placeholder="Usuário no Github"
-            onChange={e => this.setState({ github_user: e.target.value })}
-          />
-          <input
-            type="password"
-            placeholder="Crie uma Senha Secreta"
-            onChange={e => this.setState({ password: e.target.value })}
-          />
-          <button type="submit">Cadastrar</button>
-          <hr />
-          <Link to="/">Fazer login</Link>
-        </Form>
-      </Container>
-    );
-  }
+      <SignUpBox>
+        <SignUpForm history={history} />
+      </SignUpBox>
+    </Container>
+  );
 }
-
-export default SignUp;

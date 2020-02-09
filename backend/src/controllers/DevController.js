@@ -20,66 +20,65 @@ class DevController {
       // admin,
     } = req.body;
 
+    // check if dev already exists in database
     let dev = await Dev.findOne({ github_user });
 
     if (!dev) {
       const upperTechs = upperCaseTechs(techs);
 
-      const response = await axios.get(
-        `https://api.github.com/users/${github_user}`
-      );
+      try {
+        const response = await axios.get(
+          `https://api.github.com/users/${github_user}`
+        );
+        const { name = login, bio, avatar_url } = response.data;
 
-      const { name = login, bio, avatar_url } = response.data;
+        const techsArray = await parseStingAsArray(upperTechs);
 
-      const techsArray = await parseStingAsArray(upperTechs);
+        const location = {
+          type: 'Point',
+          coordinates: [longitude, latitude],
+        };
 
-      const location = {
-        type: 'Point',
-        coordinates: [longitude, latitude],
-      };
+        const password_hash = await bcrypt.hash(password, 8);
 
-      const password_hash = await bcrypt.hash(password, 8);
+        dev = await Dev.create({
+          github_user,
+          password_hash,
+          admin: false,
+          name,
+          bio,
+          avatar_url,
+          techs: techsArray,
+          location,
+        });
 
-      dev = await Dev.create({
-        github_user,
-        password_hash,
-        admin: false,
-        name,
-        bio,
-        avatar_url,
-        techs: techsArray,
-        location,
-      });
+        const sendSocketMessageTo = findConnections(
+          { latitude, longitude },
+          techsArray
+        );
 
-      const sendSocketMessageTo = findConnections(
-        { latitude, longitude },
-        techsArray
-      );
-
-      sendMessage(sendSocketMessageTo, 'new-dev', dev);
+        sendMessage(sendSocketMessageTo, 'new-dev', dev);
+      } catch (error) {
+        return res.status(404).json({ error: 'GitHub user does not exist.' });
+      }
     }
 
     return res.json(dev);
   }
 
-
-  async index(req, res){
-    const page = parseInt(req.query.page) || 1
-    
-    const limit = parseInt(req.query.limit) || 1
+  async index(req, res) {
+    // TESTANDO UPPER NOS EXISTENTES
 
     const devs = await Dev.find({
       active: true,
-    })
-    .skip((page - 1) * limit)
-    .limit(limit)
+      github_user: { $ne: req.userId },
+    });
 
-    return res.json(devs)
-
-
+    return res.json(devs);
   }
 
   async update(req, res) {
+    // toggle invisivbility
     const { github_user } = req.params;
     const dev = await Dev.findOne({ github_user });
 
@@ -87,20 +86,42 @@ class DevController {
       return res.status(404).json({
         status: 404,
         error: 'Not Found',
-        message: `O username ${github_user} não existe na base!`,
+        message: `This ${github_user} github user is not registred!`,
       });
     }
 
     const { _id } = dev;
+    // check if user is visible, and hide.
+    if (dev.active === true) {
+      const inativeDev = await Dev.findByIdAndUpdate(_id, {
+        active: false,
+      });
+      return res.json({
+        status: 200,
+        message: `The user ${github_user} is invisible now!`,
+      });
+    }
 
     const inativeDev = await Dev.findByIdAndUpdate(_id, {
-      active: false,
+      active: true,
     });
 
     return res.json({
       status: 200,
-      message: `Usuário ${github_user} foi deletado com sucesso!`,
+      message: `The user ${github_user} is visible now!`,
     });
+  }
+
+  // get a single dev
+  async show(req, res) {
+    // i'm studying how to fix that shit -- shhhhh
+    const { github_user } = req.params;
+
+    const devs = await Dev.find({ github_user });
+
+    const dev = devs[0];
+
+    return res.json(dev);
   }
 }
 

@@ -1,4 +1,4 @@
-import 'dotenv/config'
+import 'dotenv/config';
 import express from 'express';
 import http from 'http';
 import mongoose from 'mongoose';
