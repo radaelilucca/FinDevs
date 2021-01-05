@@ -5,7 +5,7 @@
   "repository": "https://github.com/radaelilucca/DevRadar.git",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
